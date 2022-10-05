@@ -1,0 +1,14 @@
+{
+    "name": "Teams Reporter",
+    "description": "This extension will make report",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "author": "Andrii Polishchuk"
+  }
