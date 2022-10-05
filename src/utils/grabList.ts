@@ -3,7 +3,8 @@ export function grabList() {
     ".ts-message [data-tid=threadBodyDisplayName]"
   );
 
-  const vipPersons = ["Поліщук Андрій Олегович"];
+  // You can add some person who should be in each report
+  const vipPersons: string[] = [];
 
   return Array.from(elements)
     .map((element) => element.innerHTML.trim().replaceAll("\n", ""))
